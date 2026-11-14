@@ -105,7 +105,7 @@ const TOURS = [
       "lfk-peacock.jpg"
     ],
     minutes: 300,
-    priceFrom: 65, priceTo: 150,
+    priceFrom: 85, priceTo: 85,
     group: "Any group size",
     blurb: "Escape the ordinary with a short boat ride to one of Roatán's gems. Little French Key is a private sanctuary located just off the southern coast near French Cay, where turquoise waters meet powdery white sand. This isn't just a beach; it's a private island dedicated to relaxation and adventure. It sits right on the Mesoamerican Barrier Reef—the world's second-largest—making the surrounding waters a haven for swimmers and snorkelers.",
     extra: "Forget the crowds of public beaches. This destination is designed for exclusivity, featuring over-water swings, shaded beach beds, and hammocks. It is the perfect backdrop for your vacation photography. While it is a top choice for cruise ship visitors due to easy logistics, we can also arrange extended stays for those wanting more time in paradise.",
@@ -291,7 +291,7 @@ const TOURS = [
     videoCaption: "Nurse sharks at Pigeon Cay — filmed on one of our trips",
     minutes: 360,
     priceFrom: 150, priceTo: 150,
-    group: "Up to 8 guests",
+    group: "Up to 6 guests",
     blurb: "If you want one experience in Roatán that you'll still be talking about years later, snorkeling with nurse sharks at Pigeon Cay should be high on your list. You take a boat out toward Roatán's remote East End, leaving the busy tourist areas behind. The water keeps getting clearer and brighter until you arrive at Pigeon Cay, a tiny white-sand cay surrounded by shallow turquoise Caribbean water and reef. Then you put on your mask, step into the water — and there are nurse sharks swimming underneath and around you.",
     extra: "Nurse sharks are generally calm, bottom-dwelling sharks, and the experience is guided. You can snorkel above them while they cruise along the sandy bottom, and sometimes they pass surprisingly close underneath you. You don't need to be a scuba diver — this is warm, shallow, clear water. Pigeon Cay itself is part of the attraction: not a developed beach with hotels everywhere, but a remote little patch of white sand surrounded by that crazy blue Caribbean water. It feels much more like discovering somewhere than simply arriving at another tourist attraction.",
     verdict: "You can visit beautiful beaches anywhere on the island. You can eat good food anywhere. You can snorkel beautiful coral in several places. But being able to say \"I went to a tiny cay in Honduras and snorkeled in crystal-clear water with nurse sharks swimming underneath me\" — that's different.",
