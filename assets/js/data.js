@@ -160,7 +160,7 @@ const TOURS = [
     ],
     minutes: 300,
     priceFrom: 60, priceTo: 110,
-    group: "Up to 14 guests",
+    group: "Any group size",
     blurb: "If you want to discover the vibrant heart of the island beyond its sandy shores, Punta Gorda is your essential first stop. As the oldest Garífuna settlement in Honduras, this village offers a deep connection to a heritage that is as resilient as it is beautiful.",
     extra: "Located on the scenic eastern coast, Punta Gorda was established in 1797. After being exiled from St. Vincent, the Garífuna people arrived in dugout canoes, preserving a unique fusion of African and Indigenous Caribbean traditions that remain the lifeblood of the community today. From the moment you arrive, the pulse of the drums will draw you in. For the Garífuna, music is a living history — traditional beats accompany soulful songs in their native tongue and the energetic Punta dance. These movements are a celebration of joy and survival, so if someone invites you to join in, embrace the moment.",
     verdict: "This village offers a rare opportunity to engage with a culture that has flourished for over two centuries. When you visit, you aren't just a tourist — you are a guest in a story that has been told for 229 years. Come with an open heart, leave with a new rhythm in your step.",
@@ -209,7 +209,7 @@ const TOURS = [
     ],
     minutes: 150,
     priceFrom: 40, priceTo: 80,
-    group: "Up to 16 guests",
+    group: "Any group size",
     blurb: "Explore the wonders of the deep without getting wet on our semi-submarine tour. See vibrant coral reefs and exotic sea creatures through crystal-clear glass panels.",
     highlights: [
       "Semi-submarine with crystal-clear glass panels",
@@ -246,7 +246,7 @@ const TOURS = [
     ],
     minutes: 180,
     priceFrom: 65, priceTo: 90,
-    group: "Up to 10 guests",
+    group: "Any group size",
     blurb: "Explore Roatán's vibrant coral reef up close with guided snorkeling at some of the island's best spots. Encounter colorful marine life in crystal-clear waters.",
     highlights: [
       "Guided snorkeling on the Mesoamerican Barrier Reef",
@@ -291,7 +291,7 @@ const TOURS = [
     videoCaption: "Nurse sharks at Pigeon Cay — filmed on one of our trips",
     minutes: 360,
     priceFrom: 150, priceTo: null,   // starting price; no ceiling set
-    group: "Up to 6 guests",
+    group: "Any group size",
     blurb: "If you want one experience in Roatán that you'll still be talking about years later, snorkeling with nurse sharks at Pigeon Cay should be high on your list. You take a boat out toward Roatán's remote East End, leaving the busy tourist areas behind. The water keeps getting clearer and brighter until you arrive at Pigeon Cay, a tiny white-sand cay surrounded by shallow turquoise Caribbean water and reef. Then you put on your mask, step into the water — and there are nurse sharks swimming underneath and around you.",
     extra: "Nurse sharks are generally calm, bottom-dwelling sharks, and the experience is guided. You can snorkel above them while they cruise along the sandy bottom, and sometimes they pass surprisingly close underneath you. You don't need to be a scuba diver — this is warm, shallow, clear water. Pigeon Cay itself is part of the attraction: not a developed beach with hotels everywhere, but a remote little patch of white sand surrounded by that crazy blue Caribbean water. It feels much more like discovering somewhere than simply arriving at another tourist attraction.",
     verdict: "You can visit beautiful beaches anywhere on the island. You can eat good food anywhere. You can snorkel beautiful coral in several places. But being able to say \"I went to a tiny cay in Honduras and snorkeled in crystal-clear water with nurse sharks swimming underneath me\" — that's different.",
@@ -333,7 +333,7 @@ const TOURS = [
     ],
     minutes: 180,
     priceFrom: 35, priceTo: 55,
-    group: "Up to 12 guests",
+    group: "Any group size",
     blurb: "Glide through secret mangrove tunnels on an authentic panga boat.",
     highlights: [
       "Narrow mangrove tunnels most visitors never see",
@@ -376,7 +376,7 @@ const TOURS = [
     ],
     minutes: 120,
     priceFrom: 35, priceTo: 45,
-    group: "Up to 14 guests",
+    group: "Any group size",
     blurb: "Get ready for a heartwarming experience as you meet Roatán's most famous residents—the sloths, monkeys, and colorful parrots of our island sanctuaries.",
     highlights: [
       "Hold a sloth under the care of sanctuary staff",
@@ -414,7 +414,7 @@ const TOURS = [
     ],
     minutes: 120,
     priceFrom: 90, priceTo: 130,
-    group: "Up to 6 guests",
+    group: "Any group size",
     blurb: "Experience ultimate freedom and panoramic island views as you glide through the sky above West Bay. A unique bird's-eye view of the Caribbean.",
     highlights: [
       "Parasail flight over West Bay",
@@ -456,7 +456,7 @@ const TOURS = [
     ],
     minutes: 300,
     priceFrom: 0, priceTo: 0,   // ✏️ no price supplied yet — shows as "Ask us"
-    group: "Up to 14 guests",
+    group: "Any group size",
     blurb: "Discover Roatán's favorite nature destination. This immersive park combines wildlife encounters, tropical gardens, and history into one unforgettable adventure right by West Bay.",
     highlights: [
       "Capuchin monkey and macaw encounters",
@@ -534,7 +534,7 @@ const TOURS = [
     photo: "",
     minutes: 240,
     priceFrom: 45, priceTo: 65,
-    group: "Up to 12 guests",
+    group: "Any group size",
     blurb: "Brave the Randy's Jungles Top Zip Line for an exhilarating ride through dense foliage and vibrant landscapes. This heart-pounding attraction offers a unique blend of nature and adrenaline for thrill-seekers of all skill levels.",
     highlights: [
       "Multi-line canopy course through dense jungle",
