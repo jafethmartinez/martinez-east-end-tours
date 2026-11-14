@@ -105,7 +105,7 @@ const TOURS = [
       "lfk-peacock.jpg"
     ],
     minutes: 300,
-    priceFrom: 85, priceTo: 85,
+    priceFrom: 85, priceTo: 175,
     group: "Any group size",
     blurb: "Escape the ordinary with a short boat ride to one of Roatán's gems. Little French Key is a private sanctuary located just off the southern coast near French Cay, where turquoise waters meet powdery white sand. This isn't just a beach; it's a private island dedicated to relaxation and adventure. It sits right on the Mesoamerican Barrier Reef—the world's second-largest—making the surrounding waters a haven for swimmers and snorkelers.",
     extra: "Forget the crowds of public beaches. This destination is designed for exclusivity, featuring over-water swings, shaded beach beds, and hammocks. It is the perfect backdrop for your vacation photography. While it is a top choice for cruise ship visitors due to easy logistics, we can also arrange extended stays for those wanting more time in paradise.",
