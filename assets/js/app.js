@@ -23,12 +23,15 @@
   const byId = (id) => TOURS.find((t) => t.id === id);
 
   const hasPrice = (t) => t.priceFrom > 0;
-  /* True when the tour has one fixed price rather than a spread. */
-  const isFixed = (t) => t.priceFrom === t.priceTo;
-  /* "$65 – $150", or "$65" when both ends match */
+  /* One fixed price rather than a spread. */
+  const isFixed = (t) => t.priceTo === t.priceFrom;
+  /* A starting price with no ceiling set: priceTo is null. */
+  const isOpen = (t) => t.priceTo == null;
+  /* "$85 – $175", "$150" when both ends match, "From $150" when open-ended */
   function priceRange(t) {
     if (!hasPrice(t)) return "Ask us";
-    return t.priceFrom === t.priceTo
+    if (isOpen(t)) return "From " + money(t.priceFrom);
+    return isFixed(t)
       ? money(t.priceFrom)
       : money(t.priceFrom) + " – " + money(t.priceTo);
   }
@@ -621,14 +624,18 @@
         totalEl.textContent = priceRange(t);
         noteEl.textContent = isFixed(t)
           ? "Per person. Add your guests to see the total."
-          : "Per person. Add your guests to see the range for your group.";
+          : "Per person. Add your guests to see the figure for your group.";
       } else {
-        totalEl.textContent = isFixed(t)
-          ? money(people * t.priceFrom)
-          : money(people * t.priceFrom) + " – " + money(people * t.priceTo);
+        totalEl.textContent =
+          isOpen(t)  ? "From " + money(people * t.priceFrom) :
+          isFixed(t) ? money(people * t.priceFrom)
+                     : money(people * t.priceFrom) + " – " + money(people * t.priceTo);
         noteEl.textContent = "For " + people + " " + (people === 1 ? "person" : "people") +
-          ", at " + priceRange(t) + " each. " +
-          (isFixed(t) ? "" : "Where you land in that range depends on group size and what you include. ") +
+          (isOpen(t) ? ", starting at " + money(t.priceFrom) + " each. "
+                     : ", at " + priceRange(t) + " each. ") +
+          (isOpen(t)  ? "The final price depends on group size and what you include. " :
+           isFixed(t) ? ""
+                      : "Where you land in that range depends on group size and what you include. ") +
           "Nothing is charged now — we confirm the exact price when we reply.";
       }
 
